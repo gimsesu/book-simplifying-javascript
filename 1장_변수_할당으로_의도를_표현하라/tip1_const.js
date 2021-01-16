@@ -37,5 +37,5 @@ for (let i = 0; i < cart.length; i++) {
 }
 // 배열에 항목을 추가할 순 있지만, 뒤에 어떤 값이 올지 예측하기 어렵다.
 
-// 선언 후 조작하는 부분을 삭제
+// 선언 후 조작하는 부분(for문)을 삭제
 const discountable = cart.filter(item => item.discountAvailable);
